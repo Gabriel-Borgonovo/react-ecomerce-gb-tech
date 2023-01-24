@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-ecomerce-gb-tech/static/css/main.264c4060.css",
+    "main.js": "/react-ecomerce-gb-tech/static/js/main.12d2281f.js",
+    "static/js/787.089f7001.chunk.js": "/react-ecomerce-gb-tech/static/js/787.089f7001.chunk.js",
+    "index.html": "/react-ecomerce-gb-tech/index.html",
+    "main.264c4060.css.map": "/react-ecomerce-gb-tech/static/css/main.264c4060.css.map",
+    "main.12d2281f.js.map": "/react-ecomerce-gb-tech/static/js/main.12d2281f.js.map",
+    "787.089f7001.chunk.js.map": "/react-ecomerce-gb-tech/static/js/787.089f7001.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.264c4060.css",
+    "static/js/main.12d2281f.js"
+  ]
+}
