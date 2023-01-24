@@ -1,0 +1,23 @@
+.thanks-container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240,242,245);
+}
+
+.thanks-h2{
+    color: #212121;
+}
+
+.thanks{
+    color: #1b74e4;
+    border-color: #1b74e4;
+}
+
+.thanks:hover{
+    background-color: #1b74e4;
+    color: #fff;
+}

@@ -1,0 +1,41 @@
+.ventana{
+    position:fixed;
+    z-index: 9999999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.ventana.is-open{
+    display: flex;
+}
+
+
+.modal-container{
+    position: relative;
+    padding: 1rem;
+    min-width: 320px;
+    width: 60%;
+    max-width: 500px;
+    min-height: 200px;
+    max-height: 550px;
+    overflow-y: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #dc4535;
+    color: #fff;
+    border-color: rgb(0, 0, 0);
+}

@@ -1,0 +1,112 @@
+.product-in-cart{
+    background-color: #fff;
+    width: 90%;
+    max-width: 450px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.prod-in-cart-img{
+    width: 30%;
+    height: 130px;
+}
+
+.prod-in-cart-details{
+    width: 60%;
+}
+
+.prod-in-cart-actions{
+    align-self: flex-start;
+}
+
+.prod-in-cart-remove{
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.prod-in-cart-h3{
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #5f5f5f;
+}
+
+.prod-in-cart-price{
+    font-weight: 600;
+    color: #5f5f5f;
+}
+
+.prod-in-cart-quantity{
+    color: #5f5f5f;
+}
+
+.prod-in-cart-quantity b{
+    color: black;
+}
+
+.cart-container-quantity{
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.prod-in-cart-buttons{
+    display: flex;
+    gap: 10px;
+}
+
+/*Botones incrementar y decrementar cantidad*/
+
+.increment-qty,
+.decrement-qty{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    transition: all .3s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.increment-qty{
+    color: #06b48e;
+}
+
+.increment-qty:hover{
+    background-color: #06b48e;
+    color: #fff;
+}
+
+.decrement-qty{
+    color: #dc3545;
+}
+
+.decrement-qty:hover{
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.prod-in-cart-remove{
+    border: none;
+    color: #5f5f5f;
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}

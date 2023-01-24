@@ -1,0 +1,153 @@
+.detail-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(240,242,245);
+}
+
+.detail-container h1 {
+    color: #212121;
+    position: absolute;
+    z-index: 9;
+    top: 70px;
+}
+
+.detail-container img {
+    width: 400px;
+    height: 400px;
+}
+
+.detail-product-container{
+    border: 1px solid rgb(221, 221, 221);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-top: 100px; 
+    margin-bottom: 100px;
+    border-radius: 20px;
+    padding: 20px 0;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+}
+
+.detail-price,
+.detail-h2{
+    color: #212121;
+    margin: 0;
+}
+
+.detail-text-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+label{
+    color: #212121;
+}
+
+.detail-ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.detail-ul li{
+    font-size: 14px;
+    color: #212121;
+    letter-spacing: .9px;
+}
+
+
+.count-amount{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.detail-form{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.detail-p-description{
+    margin: 10px 0;
+    color: #212121;
+}
+
+.valoration{
+    margin: 10px 0;
+}
+
+/*Botón go to cart*/
+.container-detail-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.detail-button-go-to-cart{
+    display: inline-block;
+    text-align: center;
+    padding: 8px 0;
+    width: 100%;
+    text-decoration: none;
+    background: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px #21212180;
+    color: #06b48e;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+
+.detail-button-go-to-cart:hover{
+    background-color: #06b48e;
+    color: #fff;
+}
+
+/*botones incremento y decremento*/
+
+.decrement,
+.increment{
+    width: 35px;
+    height: 35px;
+    font-size: 30px;
+}
+
+
+@media screen and (min-width: 720px) {
+    .detail-product-container{
+        width: 80%;
+        margin-top: 100px;
+    }
+
+    .detail-text-container{
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .detail-product-container{
+        width: 80%;
+        margin-top:100px ;
+    }
+}
